@@ -1,7 +1,7 @@
 {
-  "testedAtUtc": "2026-08-24T22:34:12.452Z",
+  "testedAtUtc": "2026-08-24T22:59:53.553Z",
   "rpcUsed": "https://mainnet.base.org",
-  "currentBlock": 50410744,
+  "currentBlock": 50411507,
   "quoter": "0x514c8B5f54112481E28028F1166Bd78501089259",
   "pool": "0x853F5f1B92b16714Fe6CDA67CAad0856B83C7ab9",
   "tickSpacing": 10,
@@ -62,30 +62,84 @@
     },
     {
       "amountIn": "100000000",
-      "amountOut": "47867184",
-      "amountOutFormatted": "0.47867184",
-      "sqrtPriceX96After": "54828497309872326671962933228",
+      "amountOut": "47866339",
+      "amountOutFormatted": "0.47866339",
+      "sqrtPriceX96After": "54828013402648544137010819846",
       "initializedTicksCrossed": 1,
-      "gasEstimate": "198426",
-      "blockTag": 50410744
+      "gasEstimate": "201546",
+      "blockTag": 50410666
     },
     {
       "amountIn": "99750000",
-      "amountOut": "47747517",
-      "amountOutFormatted": "0.47747517",
-      "sqrtPriceX96After": "54828497804987102053655916205",
+      "amountOut": "47746674",
+      "amountOutFormatted": "0.47746674",
+      "sqrtPriceX96After": "54828013897754579955449050734",
       "initializedTicksCrossed": 1,
-      "gasEstimate": "198426",
-      "blockTag": 50410744
+      "gasEstimate": "201546",
+      "blockTag": 50410666
     },
     {
       "amountIn": "99500000",
-      "amountOut": "47627849",
-      "amountOutFormatted": "0.47627849",
-      "sqrtPriceX96After": "54828498300101886377364640721",
+      "amountOut": "47627009",
+      "amountOutFormatted": "0.47627009",
+      "sqrtPriceX96After": "54828014392860624715666263006",
+      "initializedTicksCrossed": 1,
+      "gasEstimate": "201546",
+      "blockTag": 50410666
+    },
+    {
+      "amountIn": "100000000",
+      "amountOut": "47868531",
+      "amountOutFormatted": "0.47868531",
+      "sqrtPriceX96After": "54829268677689910081505515488",
       "initializedTicksCrossed": 1,
       "gasEstimate": "198426",
-      "blockTag": 50410744
+      "blockTag": 50410693
+    },
+    {
+      "amountIn": "99750000",
+      "amountOut": "47748860",
+      "amountOutFormatted": "0.4774886",
+      "sqrtPriceX96After": "54829269172818616842343942412",
+      "initializedTicksCrossed": 1,
+      "gasEstimate": "198426",
+      "blockTag": 50410693
+    },
+    {
+      "amountIn": "99500000",
+      "amountOut": "47629189",
+      "amountOutFormatted": "0.47629189",
+      "sqrtPriceX96After": "54829269667947332545575524846",
+      "initializedTicksCrossed": 1,
+      "gasEstimate": "198426",
+      "blockTag": 50410693
+    },
+    {
+      "amountIn": "100000000",
+      "amountOut": "47831081",
+      "amountOutFormatted": "0.47831081",
+      "sqrtPriceX96After": "54807725195971052685365566365",
+      "initializedTicksCrossed": 1,
+      "gasEstimate": "198242",
+      "blockTag": 50411507
+    },
+    {
+      "amountIn": "99750000",
+      "amountOut": "47711504",
+      "amountOutFormatted": "0.47711504",
+      "sqrtPriceX96After": "54807726147386353443558872981",
+      "initializedTicksCrossed": 1,
+      "gasEstimate": "198273",
+      "blockTag": 50411507
+    },
+    {
+      "amountIn": "99500000",
+      "amountOut": "47591927",
+      "amountOutFormatted": "0.47591927",
+      "sqrtPriceX96After": "54807727098801687233266879160",
+      "initializedTicksCrossed": 1,
+      "gasEstimate": "198273",
+      "blockTag": 50411507
     }
   ]
 }

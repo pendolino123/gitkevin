@@ -1,5 +1,5 @@
 {
-  "tested_at_utc": "2026-08-24T22:32:16.221000+00:00",
+  "tested_at_utc": "2026-08-24T22:57:41.776892+00:00",
   "chain_id": 8453,
   "pair": {
     "sell_token": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
@@ -29,32 +29,32 @@
       "final_url": "https://api.paraswap.io/prices?srcToken=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&destToken=0xb20000000000000000000078ee7ce2fE4908108C&amount=100000000&srcDecimals=6&destDecimals=8&side=SELL&network=8453&version=6.2&userAddress=0x1111111111111111111111111111111111111111&maxImpact=100",
       "status": 200,
       "reason": "OK",
-      "elapsed_ms": 583,
+      "elapsed_ms": 231,
       "response_headers": {
-        "Date": "Mon, 24 Aug 2026 22:31:27 GMT",
+        "Date": "Mon, 24 Aug 2026 22:56:52 GMT",
         "Content-Type": "application/json; charset=utf-8",
         "Content-Length": "1476",
         "Connection": "keep-alive",
         "Access-Control-Allow-Origin": "*",
-        "X-Request-ID": "1dc6e66a-52d7-4bb7-becc-cd5e9f75888b",
-        "X-Handler-ID": "83c8b7d332514b6c98a34c5572ffcf90-3618068154",
+        "X-Request-ID": "1bd9a374-5f3c-470f-992b-d59c442c404c",
+        "X-Handler-ID": "859be838e0a6401e8c2ae3eeb12a4af8-3618068154",
         "Cache-Control": "no-cache, no-store",
-        "ETag": "W/\"5c4-JfsywmDpPWRbZnKQg8iN+8YL9Gs\"",
+        "ETag": "W/\"5c4-jWc66p4XdoJ71yJii7K6kqP/Eeo\"",
         "Vary": "Accept-Encoding"
       },
-      "body_sha256": "9bb6db854abf0792732fe9bbae11100a7c6308472c195ef0acbf853408ffaeb2",
+      "body_sha256": "3938e5dce25358fd595538a732deb6611ed0a79584419ac15547f310b049ae22",
       "body_length": 1476,
-      "body": "{\"priceRoute\":{\"blockNumber\":50410670,\"network\":8453,\"srcToken\":\"0x833589fcd6edb6e08f4c7c32d4f71b54bda02913\",\"srcDecimals\":6,\"srcAmount\":\"100000000\",\"destToken\":\"0xb20000000000000000000078ee7ce2fe4908108c\",\"destDecimals\":8,\"destAmount\":\"47866315\",\"bestRoute\":[{\"percent\":100,\"swaps\":[{\"srcToken\":\"0x833589fcd6edb6e08f4c7c32d4f71b54bda02913\",\"srcDecimals\":6,\"destToken\":\"0xb20000000000000000000078ee7ce2fe4908108c\",\"destDecimals\":8,\"swapExchanges\":[{\"exchange\":\"aerodromeslipstreamfactory3\",\"srcAmount\":\"100000000\",\"destAmount\":\"47866315\",\"percent\":100,\"poolAddresses\":[\"0x853f5f1b92b16714fe6cda67caad0856b83c7ab9\"],\"poolIdentifiers\":[\"aerodromeslipstreamfactory3_0x853f5f1b92b16714fe6cda67caad0856b83c7ab9\"],\"targetExchange\":\"0x33a47a122de0b5c429ba79e6d17965b0e841c60e\",\"data\":{\"apiGo\":true,\"blockNumber\":50410666,\"source\":\"L1\",\"path\":[{\"tokenIn\":\"0x833589fcd6edb6e08f4c7c32d4f71b54bda02913\",\"tokenOut\":\"0xb20000000000000000000078ee7ce2fe4908108c\",\"fee\":\"500\",\"currentFee\":\"500\",\"tickSpacing\":\"10\"}],\"gasUSD\":\"0.001512\"}}]}]}],\"gasCostUSD\":\"0.002257\",\"gasCost\":\"148740\",\"side\":\"SELL\",\"version\":\"6.2\",\"contractAddress\":\"0x6a000f20005980200259b80c5102003040001068\",\"tokenTransferProxy\":\"0x6a000f20005980200259b80c5102003040001068\",\"contractMethod\":\"swapExactAmountIn\",\"partnerFee\":0.01,\"srcUSD\":\"99.9902000000\",\"destUSD\":\"99.9161459310\",\"maxImpact\":100,\"destAmountAfterFee\":\"47861528\",\"partner\":\"anon\",\"maxImpactReached\":false,\"hmac\":\"168db84d73b1d5a02fc62a9f6ba7fdabb61c7ef2\"}}",
+      "body": "{\"priceRoute\":{\"blockNumber\":50411432,\"network\":8453,\"srcToken\":\"0x833589fcd6edb6e08f4c7c32d4f71b54bda02913\",\"srcDecimals\":6,\"srcAmount\":\"100000000\",\"destToken\":\"0xb20000000000000000000078ee7ce2fe4908108c\",\"destDecimals\":8,\"destAmount\":\"47815459\",\"bestRoute\":[{\"percent\":100,\"swaps\":[{\"srcToken\":\"0x833589fcd6edb6e08f4c7c32d4f71b54bda02913\",\"srcDecimals\":6,\"destToken\":\"0xb20000000000000000000078ee7ce2fe4908108c\",\"destDecimals\":8,\"swapExchanges\":[{\"exchange\":\"aerodromeslipstreamfactory3\",\"srcAmount\":\"100000000\",\"destAmount\":\"47815459\",\"percent\":100,\"poolAddresses\":[\"0x853f5f1b92b16714fe6cda67caad0856b83c7ab9\"],\"poolIdentifiers\":[\"aerodromeslipstreamfactory3_0x853f5f1b92b16714fe6cda67caad0856b83c7ab9\"],\"targetExchange\":\"0x33a47a122de0b5c429ba79e6d17965b0e841c60e\",\"data\":{\"apiGo\":true,\"blockNumber\":50411430,\"source\":\"L1\",\"path\":[{\"tokenIn\":\"0x833589fcd6edb6e08f4c7c32d4f71b54bda02913\",\"tokenOut\":\"0xb20000000000000000000078ee7ce2fe4908108c\",\"fee\":\"500\",\"currentFee\":\"500\",\"tickSpacing\":\"10\"}],\"gasUSD\":\"0.001512\"}}]}]}],\"gasCostUSD\":\"0.002260\",\"gasCost\":\"148740\",\"side\":\"SELL\",\"version\":\"6.2\",\"contractAddress\":\"0x6a000f20005980200259b80c5102003040001068\",\"tokenTransferProxy\":\"0x6a000f20005980200259b80c5102003040001068\",\"contractMethod\":\"swapExactAmountIn\",\"partnerFee\":0.01,\"srcUSD\":\"99.9923000000\",\"destUSD\":\"99.9438724018\",\"maxImpact\":100,\"destAmountAfterFee\":\"47810677\",\"partner\":\"anon\",\"maxImpactReached\":false,\"hmac\":\"4186df8355a85084c67eca0103beb65c71d3e199\"}}",
       "json": {
         "priceRoute": {
-          "blockNumber": 50410670,
+          "blockNumber": 50411432,
           "network": 8453,
           "srcToken": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
           "srcDecimals": 6,
           "srcAmount": "100000000",
           "destToken": "0xb20000000000000000000078ee7ce2fe4908108c",
           "destDecimals": 8,
-          "destAmount": "47866315",
+          "destAmount": "47815459",
           "bestRoute": [
             {
               "percent": 100,
@@ -68,7 +68,7 @@
                     {
                       "exchange": "aerodromeslipstreamfactory3",
                       "srcAmount": "100000000",
-                      "destAmount": "47866315",
+                      "destAmount": "47815459",
                       "percent": 100,
                       "poolAddresses": [
                         "0x853f5f1b92b16714fe6cda67caad0856b83c7ab9"
@@ -79,7 +79,7 @@
                       "targetExchange": "0x33a47a122de0b5c429ba79e6d17965b0e841c60e",
                       "data": {
                         "apiGo": true,
-                        "blockNumber": 50410666,
+                        "blockNumber": 50411430,
                         "source": "L1",
                         "path": [
                           {
@@ -98,7 +98,7 @@
               ]
             }
           ],
-          "gasCostUSD": "0.002257",
+          "gasCostUSD": "0.002260",
           "gasCost": "148740",
           "side": "SELL",
           "version": "6.2",
@@ -106,13 +106,13 @@
           "tokenTransferProxy": "0x6a000f20005980200259b80c5102003040001068",
           "contractMethod": "swapExactAmountIn",
           "partnerFee": 0.01,
-          "srcUSD": "99.9902000000",
-          "destUSD": "99.9161459310",
+          "srcUSD": "99.9923000000",
+          "destUSD": "99.9438724018",
           "maxImpact": 100,
-          "destAmountAfterFee": "47861528",
+          "destAmountAfterFee": "47810677",
           "partner": "anon",
           "maxImpactReached": false,
-          "hmac": "168db84d73b1d5a02fc62a9f6ba7fdabb61c7ef2"
+          "hmac": "4186df8355a85084c67eca0103beb65c71d3e199"
         }
       }
     },
@@ -137,32 +137,32 @@
       "final_url": "https://api.velora.xyz/prices?srcToken=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&destToken=0xb20000000000000000000078ee7ce2fE4908108C&amount=100000000&srcDecimals=6&destDecimals=8&side=SELL&network=8453&version=6.2&userAddress=0x1111111111111111111111111111111111111111&maxImpact=100",
       "status": 200,
       "reason": "OK",
-      "elapsed_ms": 318,
+      "elapsed_ms": 49,
       "response_headers": {
-        "Date": "Mon, 24 Aug 2026 22:31:28 GMT",
+        "Date": "Mon, 24 Aug 2026 22:56:52 GMT",
         "Content-Type": "application/json; charset=utf-8",
         "Content-Length": "1476",
         "Connection": "keep-alive",
         "Access-Control-Allow-Origin": "*",
-        "X-Request-ID": "df6c8573-a974-4331-adc5-1172aef9354d",
-        "X-Handler-ID": "83c8b7d332514b6c98a34c5572ffcf90-3618068154",
+        "X-Request-ID": "c7836420-8ea7-4216-b81b-a9e02bc7e4ad",
+        "X-Handler-ID": "36b31e0e49f24d9a8f53c66e7042961a-3618068154",
         "Cache-Control": "no-cache, no-store",
-        "ETag": "W/\"5c4-JfsywmDpPWRbZnKQg8iN+8YL9Gs\"",
+        "ETag": "W/\"5c4-jWc66p4XdoJ71yJii7K6kqP/Eeo\"",
         "Vary": "Accept-Encoding"
       },
-      "body_sha256": "9bb6db854abf0792732fe9bbae11100a7c6308472c195ef0acbf853408ffaeb2",
+      "body_sha256": "3938e5dce25358fd595538a732deb6611ed0a79584419ac15547f310b049ae22",
       "body_length": 1476,
-      "body": "{\"priceRoute\":{\"blockNumber\":50410670,\"network\":8453,\"srcToken\":\"0x833589fcd6edb6e08f4c7c32d4f71b54bda02913\",\"srcDecimals\":6,\"srcAmount\":\"100000000\",\"destToken\":\"0xb20000000000000000000078ee7ce2fe4908108c\",\"destDecimals\":8,\"destAmount\":\"47866315\",\"bestRoute\":[{\"percent\":100,\"swaps\":[{\"srcToken\":\"0x833589fcd6edb6e08f4c7c32d4f71b54bda02913\",\"srcDecimals\":6,\"destToken\":\"0xb20000000000000000000078ee7ce2fe4908108c\",\"destDecimals\":8,\"swapExchanges\":[{\"exchange\":\"aerodromeslipstreamfactory3\",\"srcAmount\":\"100000000\",\"destAmount\":\"47866315\",\"percent\":100,\"poolAddresses\":[\"0x853f5f1b92b16714fe6cda67caad0856b83c7ab9\"],\"poolIdentifiers\":[\"aerodromeslipstreamfactory3_0x853f5f1b92b16714fe6cda67caad0856b83c7ab9\"],\"targetExchange\":\"0x33a47a122de0b5c429ba79e6d17965b0e841c60e\",\"data\":{\"apiGo\":true,\"blockNumber\":50410666,\"source\":\"L1\",\"path\":[{\"tokenIn\":\"0x833589fcd6edb6e08f4c7c32d4f71b54bda02913\",\"tokenOut\":\"0xb20000000000000000000078ee7ce2fe4908108c\",\"fee\":\"500\",\"currentFee\":\"500\",\"tickSpacing\":\"10\"}],\"gasUSD\":\"0.001512\"}}]}]}],\"gasCostUSD\":\"0.002257\",\"gasCost\":\"148740\",\"side\":\"SELL\",\"version\":\"6.2\",\"contractAddress\":\"0x6a000f20005980200259b80c5102003040001068\",\"tokenTransferProxy\":\"0x6a000f20005980200259b80c5102003040001068\",\"contractMethod\":\"swapExactAmountIn\",\"partnerFee\":0.01,\"srcUSD\":\"99.9902000000\",\"destUSD\":\"99.9161459310\",\"maxImpact\":100,\"destAmountAfterFee\":\"47861528\",\"partner\":\"anon\",\"maxImpactReached\":false,\"hmac\":\"168db84d73b1d5a02fc62a9f6ba7fdabb61c7ef2\"}}",
+      "body": "{\"priceRoute\":{\"blockNumber\":50411432,\"network\":8453,\"srcToken\":\"0x833589fcd6edb6e08f4c7c32d4f71b54bda02913\",\"srcDecimals\":6,\"srcAmount\":\"100000000\",\"destToken\":\"0xb20000000000000000000078ee7ce2fe4908108c\",\"destDecimals\":8,\"destAmount\":\"47815459\",\"bestRoute\":[{\"percent\":100,\"swaps\":[{\"srcToken\":\"0x833589fcd6edb6e08f4c7c32d4f71b54bda02913\",\"srcDecimals\":6,\"destToken\":\"0xb20000000000000000000078ee7ce2fe4908108c\",\"destDecimals\":8,\"swapExchanges\":[{\"exchange\":\"aerodromeslipstreamfactory3\",\"srcAmount\":\"100000000\",\"destAmount\":\"47815459\",\"percent\":100,\"poolAddresses\":[\"0x853f5f1b92b16714fe6cda67caad0856b83c7ab9\"],\"poolIdentifiers\":[\"aerodromeslipstreamfactory3_0x853f5f1b92b16714fe6cda67caad0856b83c7ab9\"],\"targetExchange\":\"0x33a47a122de0b5c429ba79e6d17965b0e841c60e\",\"data\":{\"apiGo\":true,\"blockNumber\":50411430,\"source\":\"L1\",\"path\":[{\"tokenIn\":\"0x833589fcd6edb6e08f4c7c32d4f71b54bda02913\",\"tokenOut\":\"0xb20000000000000000000078ee7ce2fe4908108c\",\"fee\":\"500\",\"currentFee\":\"500\",\"tickSpacing\":\"10\"}],\"gasUSD\":\"0.001512\"}}]}]}],\"gasCostUSD\":\"0.002260\",\"gasCost\":\"148740\",\"side\":\"SELL\",\"version\":\"6.2\",\"contractAddress\":\"0x6a000f20005980200259b80c5102003040001068\",\"tokenTransferProxy\":\"0x6a000f20005980200259b80c5102003040001068\",\"contractMethod\":\"swapExactAmountIn\",\"partnerFee\":0.01,\"srcUSD\":\"99.9923000000\",\"destUSD\":\"99.9438724018\",\"maxImpact\":100,\"destAmountAfterFee\":\"47810677\",\"partner\":\"anon\",\"maxImpactReached\":false,\"hmac\":\"4186df8355a85084c67eca0103beb65c71d3e199\"}}",
       "json": {
         "priceRoute": {
-          "blockNumber": 50410670,
+          "blockNumber": 50411432,
           "network": 8453,
           "srcToken": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
           "srcDecimals": 6,
           "srcAmount": "100000000",
           "destToken": "0xb20000000000000000000078ee7ce2fe4908108c",
           "destDecimals": 8,
-          "destAmount": "47866315",
+          "destAmount": "47815459",
           "bestRoute": [
             {
               "percent": 100,
@@ -176,7 +176,7 @@
                     {
                       "exchange": "aerodromeslipstreamfactory3",
                       "srcAmount": "100000000",
-                      "destAmount": "47866315",
+                      "destAmount": "47815459",
                       "percent": 100,
                       "poolAddresses": [
                         "0x853f5f1b92b16714fe6cda67caad0856b83c7ab9"
@@ -187,7 +187,7 @@
                       "targetExchange": "0x33a47a122de0b5c429ba79e6d17965b0e841c60e",
                       "data": {
                         "apiGo": true,
-                        "blockNumber": 50410666,
+                        "blockNumber": 50411430,
                         "source": "L1",
                         "path": [
                           {
@@ -206,7 +206,7 @@
               ]
             }
           ],
-          "gasCostUSD": "0.002257",
+          "gasCostUSD": "0.002260",
           "gasCost": "148740",
           "side": "SELL",
           "version": "6.2",
@@ -214,13 +214,13 @@
           "tokenTransferProxy": "0x6a000f20005980200259b80c5102003040001068",
           "contractMethod": "swapExactAmountIn",
           "partnerFee": 0.01,
-          "srcUSD": "99.9902000000",
-          "destUSD": "99.9161459310",
+          "srcUSD": "99.9923000000",
+          "destUSD": "99.9438724018",
           "maxImpact": 100,
-          "destAmountAfterFee": "47861528",
+          "destAmountAfterFee": "47810677",
           "partner": "anon",
           "maxImpactReached": false,
-          "hmac": "168db84d73b1d5a02fc62a9f6ba7fdabb61c7ef2"
+          "hmac": "4186df8355a85084c67eca0103beb65c71d3e199"
         }
       }
     },
@@ -255,9 +255,9 @@
       "final_url": "https://api.odos.xyz/sor/quote/v2",
       "status": 530,
       "reason": "<none>",
-      "elapsed_ms": 49,
+      "elapsed_ms": 40,
       "response_headers": {
-        "Date": "Mon, 24 Aug 2026 22:31:28 GMT",
+        "Date": "Mon, 24 Aug 2026 22:56:52 GMT",
         "Content-Type": "application/json; charset=utf-8",
         "Content-Length": "759",
         "Connection": "keep-alive",
@@ -265,25 +265,25 @@
         "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
         "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
         "Referrer-Policy": "same-origin",
-        "set-cookie": "_cfuvid=FJd2fJ3VqGo_m5agtEISVfQdZjt9vQRGVNoD6Hdsk6M-1787610688.1375465-1.0.1.1-YawjoI8F_0siRtnK1PccJxf752bzJEFusJjvDN2Z2cM; HttpOnly; SameSite=None; Secure; Path=/; Domain=odos.xyz",
+        "set-cookie": "_cfuvid=VU.yMmw0ShwfDYBswQ5WHVQc32ZWg0quvPA7MTC_KJU-1787612212.7703938-1.0.1.1-zIizt5J_e0jND0B46fGi8fsBgG2tR2DvI.X0Tw4X5kw; HttpOnly; SameSite=None; Secure; Path=/; Domain=odos.xyz",
         "X-Frame-Options": "SAMEORIGIN",
         "Server": "cloudflare",
-        "CF-RAY": "a305ceb0dc4efa66-SJC"
+        "CF-RAY": "a305f3e9cc813ff8-IAD"
       },
-      "body_sha256": "2d2e27f9630d30a4541c774cf0e38ed825a462fc7af88ae906283564f6968f51",
+      "body_sha256": "869d3424e1e9e4dde5047b886ec4a8734bf71e0e8de0c4934f25cc4206eab845",
       "body_length": 759,
-      "body": "{\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1033/\",\"title\":\"Error 1033: Cloudflare Tunnel error\",\"status\":530,\"detail\":\"The host is configured as a Cloudflare Tunnel, but Cloudflare is currently unable to reach it.\",\"instance\":\"a305ceb0dc4efa66\",\"error_code\":1033,\"error_name\":\"tunnel_error\",\"error_category\":\"config\",\"ray_id\":\"a305ceb0dc4efa66\",\"timestamp\":\"2026-08-24T22:31:28Z\",\"zone\":\"api.odos.xyz\",\"cloudflare_error\":true,\"retryable\":true,\"retry_after\":120,\"owner_action_required\":true,\"what_you_should_do\":\"**Wait and retry.** The tunnel may be temporarily disconnected. Try again in a few minutes.\",\"footer\":\"This error was generated by Cloudflare on behalf of the website owner.\"}\n",
+      "body": "{\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1033/\",\"title\":\"Error 1033: Cloudflare Tunnel error\",\"status\":530,\"detail\":\"The host is configured as a Cloudflare Tunnel, but Cloudflare is currently unable to reach it.\",\"instance\":\"a305f3e9cc813ff8\",\"error_code\":1033,\"error_name\":\"tunnel_error\",\"error_category\":\"config\",\"ray_id\":\"a305f3e9cc813ff8\",\"timestamp\":\"2026-08-24T22:56:52Z\",\"zone\":\"api.odos.xyz\",\"cloudflare_error\":true,\"retryable\":true,\"retry_after\":120,\"owner_action_required\":true,\"what_you_should_do\":\"**Wait and retry.** The tunnel may be temporarily disconnected. Try again in a few minutes.\",\"footer\":\"This error was generated by Cloudflare on behalf of the website owner.\"}\n",
       "json": {
         "type": "https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1033/",
         "title": "Error 1033: Cloudflare Tunnel error",
         "status": 530,
         "detail": "The host is configured as a Cloudflare Tunnel, but Cloudflare is currently unable to reach it.",
-        "instance": "a305ceb0dc4efa66",
+        "instance": "a305f3e9cc813ff8",
         "error_code": 1033,
         "error_name": "tunnel_error",
         "error_category": "config",
-        "ray_id": "a305ceb0dc4efa66",
-        "timestamp": "2026-08-24T22:31:28Z",
+        "ray_id": "a305f3e9cc813ff8",
+        "timestamp": "2026-08-24T22:56:52Z",
         "zone": "api.odos.xyz",
         "cloudflare_error": true,
         "retryable": true,
@@ -324,9 +324,9 @@
       "final_url": "https://api.odos.xyz/sor/quote/v2",
       "status": 530,
       "reason": "<none>",
-      "elapsed_ms": 16,
+      "elapsed_ms": 9,
       "response_headers": {
-        "Date": "Mon, 24 Aug 2026 22:31:43 GMT",
+        "Date": "Mon, 24 Aug 2026 22:57:07 GMT",
         "Content-Type": "application/json; charset=utf-8",
         "Content-Length": "759",
         "Connection": "keep-alive",
@@ -336,22 +336,22 @@
         "Referrer-Policy": "same-origin",
         "X-Frame-Options": "SAMEORIGIN",
         "Server": "cloudflare",
-        "CF-RAY": "a305cf0ebd93fa66-SJC"
+        "CF-RAY": "a305f447acef3ff8-IAD"
       },
-      "body_sha256": "58f306af17938d933def24a140b63ad505acdc8e25b928aa34014ed853fdc260",
+      "body_sha256": "6117ae3e565c0c525e052bbbc1bbcb854325c674cade01f8ffb97e4c77abba8d",
       "body_length": 759,
-      "body": "{\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1033/\",\"title\":\"Error 1033: Cloudflare Tunnel error\",\"status\":530,\"detail\":\"The host is configured as a Cloudflare Tunnel, but Cloudflare is currently unable to reach it.\",\"instance\":\"a305cf0ebd93fa66\",\"error_code\":1033,\"error_name\":\"tunnel_error\",\"error_category\":\"config\",\"ray_id\":\"a305cf0ebd93fa66\",\"timestamp\":\"2026-08-24T22:31:43Z\",\"zone\":\"api.odos.xyz\",\"cloudflare_error\":true,\"retryable\":true,\"retry_after\":120,\"owner_action_required\":true,\"what_you_should_do\":\"**Wait and retry.** The tunnel may be temporarily disconnected. Try again in a few minutes.\",\"footer\":\"This error was generated by Cloudflare on behalf of the website owner.\"}\n",
+      "body": "{\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1033/\",\"title\":\"Error 1033: Cloudflare Tunnel error\",\"status\":530,\"detail\":\"The host is configured as a Cloudflare Tunnel, but Cloudflare is currently unable to reach it.\",\"instance\":\"a305f447acef3ff8\",\"error_code\":1033,\"error_name\":\"tunnel_error\",\"error_category\":\"config\",\"ray_id\":\"a305f447acef3ff8\",\"timestamp\":\"2026-08-24T22:57:07Z\",\"zone\":\"api.odos.xyz\",\"cloudflare_error\":true,\"retryable\":true,\"retry_after\":120,\"owner_action_required\":true,\"what_you_should_do\":\"**Wait and retry.** The tunnel may be temporarily disconnected. Try again in a few minutes.\",\"footer\":\"This error was generated by Cloudflare on behalf of the website owner.\"}\n",
       "json": {
         "type": "https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1033/",
         "title": "Error 1033: Cloudflare Tunnel error",
         "status": 530,
         "detail": "The host is configured as a Cloudflare Tunnel, but Cloudflare is currently unable to reach it.",
-        "instance": "a305cf0ebd93fa66",
+        "instance": "a305f447acef3ff8",
         "error_code": 1033,
         "error_name": "tunnel_error",
         "error_category": "config",
-        "ray_id": "a305cf0ebd93fa66",
-        "timestamp": "2026-08-24T22:31:43Z",
+        "ray_id": "a305f447acef3ff8",
+        "timestamp": "2026-08-24T22:57:07Z",
         "zone": "api.odos.xyz",
         "cloudflare_error": true,
         "retryable": true,
@@ -392,9 +392,9 @@
       "final_url": "https://api.odos.xyz/sor/quote/v2",
       "status": 530,
       "reason": "<none>",
-      "elapsed_ms": 17,
+      "elapsed_ms": 9,
       "response_headers": {
-        "Date": "Mon, 24 Aug 2026 22:31:58 GMT",
+        "Date": "Mon, 24 Aug 2026 22:57:22 GMT",
         "Content-Type": "application/json; charset=utf-8",
         "Content-Length": "759",
         "Connection": "keep-alive",
@@ -404,22 +404,22 @@
         "Referrer-Policy": "same-origin",
         "X-Frame-Options": "SAMEORIGIN",
         "Server": "cloudflare",
-        "CF-RAY": "a305cf6c9fd0fa66-SJC"
+        "CF-RAY": "a305f4a57db53ff8-IAD"
       },
-      "body_sha256": "3930e4ef4fe796b490d690023ed35184850c42d2c9c111ef6bec9b9f03adb962",
+      "body_sha256": "94d79776b36e135cd12404252754c3c8bda09cb1cf7bda819b37d2cd27224137",
       "body_length": 759,
-      "body": "{\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1033/\",\"title\":\"Error 1033: Cloudflare Tunnel error\",\"status\":530,\"detail\":\"The host is configured as a Cloudflare Tunnel, but Cloudflare is currently unable to reach it.\",\"instance\":\"a305cf6c9fd0fa66\",\"error_code\":1033,\"error_name\":\"tunnel_error\",\"error_category\":\"config\",\"ray_id\":\"a305cf6c9fd0fa66\",\"timestamp\":\"2026-08-24T22:31:58Z\",\"zone\":\"api.odos.xyz\",\"cloudflare_error\":true,\"retryable\":true,\"retry_after\":120,\"owner_action_required\":true,\"what_you_should_do\":\"**Wait and retry.** The tunnel may be temporarily disconnected. Try again in a few minutes.\",\"footer\":\"This error was generated by Cloudflare on behalf of the website owner.\"}\n",
+      "body": "{\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1033/\",\"title\":\"Error 1033: Cloudflare Tunnel error\",\"status\":530,\"detail\":\"The host is configured as a Cloudflare Tunnel, but Cloudflare is currently unable to reach it.\",\"instance\":\"a305f4a57db53ff8\",\"error_code\":1033,\"error_name\":\"tunnel_error\",\"error_category\":\"config\",\"ray_id\":\"a305f4a57db53ff8\",\"timestamp\":\"2026-08-24T22:57:22Z\",\"zone\":\"api.odos.xyz\",\"cloudflare_error\":true,\"retryable\":true,\"retry_after\":120,\"owner_action_required\":true,\"what_you_should_do\":\"**Wait and retry.** The tunnel may be temporarily disconnected. Try again in a few minutes.\",\"footer\":\"This error was generated by Cloudflare on behalf of the website owner.\"}\n",
       "json": {
         "type": "https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1033/",
         "title": "Error 1033: Cloudflare Tunnel error",
         "status": 530,
         "detail": "The host is configured as a Cloudflare Tunnel, but Cloudflare is currently unable to reach it.",
-        "instance": "a305cf6c9fd0fa66",
+        "instance": "a305f4a57db53ff8",
         "error_code": 1033,
         "error_name": "tunnel_error",
         "error_category": "config",
-        "ray_id": "a305cf6c9fd0fa66",
-        "timestamp": "2026-08-24T22:31:58Z",
+        "ray_id": "a305f4a57db53ff8",
+        "timestamp": "2026-08-24T22:57:22Z",
         "zone": "api.odos.xyz",
         "cloudflare_error": true,
         "retryable": true,
@@ -439,9 +439,9 @@
       "final_url": "https://api.odos.xyz/info/chains",
       "status": 530,
       "reason": "<none>",
-      "elapsed_ms": 18,
+      "elapsed_ms": 12,
       "response_headers": {
-        "Date": "Mon, 24 Aug 2026 22:32:13 GMT",
+        "Date": "Mon, 24 Aug 2026 22:57:37 GMT",
         "Content-Type": "application/json; charset=utf-8",
         "Content-Length": "759",
         "Connection": "keep-alive",
@@ -451,22 +451,22 @@
         "Referrer-Policy": "same-origin",
         "X-Frame-Options": "SAMEORIGIN",
         "Server": "cloudflare",
-        "CF-RAY": "a305cfca79a2fa66-SJC"
+        "CF-RAY": "a305f50349993ff8-IAD"
       },
-      "body_sha256": "a6070e0398eb226f3544316fded4041aff0c755b50a6ec675a964d7f879b60ba",
+      "body_sha256": "1c6963213034fe083642696437fd3c84400808f578e5f18f00705a3e91617ce3",
       "body_length": 759,
-      "body": "{\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1033/\",\"title\":\"Error 1033: Cloudflare Tunnel error\",\"status\":530,\"detail\":\"The host is configured as a Cloudflare Tunnel, but Cloudflare is currently unable to reach it.\",\"instance\":\"a305cfca79a2fa66\",\"error_code\":1033,\"error_name\":\"tunnel_error\",\"error_category\":\"config\",\"ray_id\":\"a305cfca79a2fa66\",\"timestamp\":\"2026-08-24T22:32:13Z\",\"zone\":\"api.odos.xyz\",\"cloudflare_error\":true,\"retryable\":true,\"retry_after\":120,\"owner_action_required\":true,\"what_you_should_do\":\"**Wait and retry.** The tunnel may be temporarily disconnected. Try again in a few minutes.\",\"footer\":\"This error was generated by Cloudflare on behalf of the website owner.\"}\n",
+      "body": "{\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1033/\",\"title\":\"Error 1033: Cloudflare Tunnel error\",\"status\":530,\"detail\":\"The host is configured as a Cloudflare Tunnel, but Cloudflare is currently unable to reach it.\",\"instance\":\"a305f50349993ff8\",\"error_code\":1033,\"error_name\":\"tunnel_error\",\"error_category\":\"config\",\"ray_id\":\"a305f50349993ff8\",\"timestamp\":\"2026-08-24T22:57:37Z\",\"zone\":\"api.odos.xyz\",\"cloudflare_error\":true,\"retryable\":true,\"retry_after\":120,\"owner_action_required\":true,\"what_you_should_do\":\"**Wait and retry.** The tunnel may be temporarily disconnected. Try again in a few minutes.\",\"footer\":\"This error was generated by Cloudflare on behalf of the website owner.\"}\n",
       "json": {
         "type": "https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1033/",
         "title": "Error 1033: Cloudflare Tunnel error",
         "status": 530,
         "detail": "The host is configured as a Cloudflare Tunnel, but Cloudflare is currently unable to reach it.",
-        "instance": "a305cfca79a2fa66",
+        "instance": "a305f50349993ff8",
         "error_code": 1033,
         "error_name": "tunnel_error",
         "error_category": "config",
-        "ray_id": "a305cfca79a2fa66",
-        "timestamp": "2026-08-24T22:32:13Z",
+        "ray_id": "a305f50349993ff8",
+        "timestamp": "2026-08-24T22:57:37Z",
         "zone": "api.odos.xyz",
         "cloudflare_error": true,
         "retryable": true,
@@ -498,30 +498,30 @@
       "final_url": "https://open-api.openocean.finance/v4/base/quote?inTokenAddress=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&outTokenAddress=0xb20000000000000000000078ee7ce2fE4908108C&amountDecimals=100000000&gasPriceDecimals=6000000&slippage=0.5",
       "status": 200,
       "reason": "OK",
-      "elapsed_ms": 1253,
+      "elapsed_ms": 2351,
       "response_headers": {
-        "Date": "Mon, 24 Aug 2026 22:32:14 GMT",
+        "Date": "Mon, 24 Aug 2026 22:57:40 GMT",
         "Content-Type": "application/json; charset=utf-8",
-        "Content-Length": "1107",
+        "Content-Length": "1009",
         "Connection": "keep-alive",
         "Server": "cloudflare",
         "Access-Control-Allow-Method": "GET, POST, PUT, OPTIONS",
         "X-Powered-By": "Express",
         "Access-Control-Allow-Origin": "*",
-        "ETag": "W/\"453-x4arIJk5jb/qu/GrOrlOnLIQ1z4\"",
+        "ETag": "W/\"3f1-fSsaka2NUocCjv2ouazI2supTKw\"",
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Strict-Transport-Security": "max-age=31536000; includeSubdomains;",
         "cf-cache-status": "DYNAMIC",
-        "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=VduuKgqRwcDcmUkvQGdYwx%2FR2zjyz%2BvpzS%2F5Y6GRfg4BlqRFiF37xfZ28Xuc0C2WQjEJSRDAMZ6kC0qNcgw3fi4odY%2FGqciuOreOhnzY7QcQ2045eUhJeggmHsKjWUhRP%2BBrcjH6Rb2WkDD2\"}]}",
+        "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=MtwpnKNkwtGB5RLNU%2FPtG3juVP2YD%2FcWvGZTtBEcY%2BzyECOfm370gykJiHath7JSd%2BXXbECPwF2vfvOxoijUzAQeXQKEBaO1hzEPBTNdHBHopC74R2rNtk56Kr9lE9pTrOUrrjD4fm%2B8%2Bg1w\"}]}",
         "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
         "Access-Control-Allow-Headers": "*",
-        "CF-RAY": "a305cfcabea38ea2-SJC"
+        "CF-RAY": "a305f5037a542000-IAD"
       },
-      "body_sha256": "3638506c9e855cf874e2cdbfd7385e29eddf6deecc7e7dc67bb431deeff1e3e3",
-      "body_length": 1107,
-      "body": "{\"code\":200,\"data\":{\"inToken\":{\"address\":\"0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913\",\"decimals\":6,\"symbol\":\"USDC\",\"name\":\"USD Coin\",\"usd\":\"0.999902\",\"volume\":99.9902},\"outToken\":{\"address\":\"0xb20000000000000000000078ee7ce2fE4908108C\",\"decimals\":8,\"symbol\":\"NVDAc\",\"name\":\"NVIDIA Corporation\",\"usd\":\"208.90561\",\"volume\":99.9980704365185},\"inAmount\":\"100000000\",\"outAmount\":\"47867585\",\"estimatedGas\":\"130118\",\"dexes\":[{\"dexIndex\":3,\"dexCode\":\"UniswapV3\",\"swapAmount\":\"4616700\"},{\"dexIndex\":54,\"dexCode\":\"UniswapV4\",\"swapAmount\":\"45093561\"},{\"dexIndex\":97,\"dexCode\":\"AerodromeCLNew\",\"swapAmount\":\"47867585\"}],\"path\":{\"from\":\"0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913\",\"to\":\"0xb20000000000000000000078ee7ce2fE4908108C\",\"parts\":5,\"routes\":[{\"parts\":5,\"percentage\":100,\"subRoutes\":[{\"from\":\"0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913\",\"to\":\"0xb20000000000000000000078ee7ce2fE4908108C\",\"parts\":5,\"dexes\":[{\"dex\":\"AerodromeCLNew\",\"id\":\"0x853F5f1B92b16714Fe6CDA67CAad0856B83C7ab9\",\"parts\":5,\"percentage\":100,\"fee\":0.0005}]}]}]},\"exchange\":\"0x6352a56caadC4F1E25CD6c75970Fa768A3304e64\",\"save\":0,\"price_impact\":\"0%\"}}",
+      "body_sha256": "5bbc1c1446920ba9d4347e0e7ae8f21be0a4f74fe59ecf74d4a2f8fed341cd20",
+      "body_length": 1009,
+      "body": "{\"code\":200,\"data\":{\"inToken\":{\"address\":\"0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913\",\"decimals\":6,\"symbol\":\"USDC\",\"name\":\"USD Coin\"},\"outToken\":{\"address\":\"0xb20000000000000000000078ee7ce2fE4908108C\",\"decimals\":8,\"symbol\":\"NVDAc\",\"name\":\"NVIDIA Corporation\"},\"inAmount\":\"100000000\",\"outAmount\":\"47820935\",\"estimatedGas\":\"130482\",\"dexes\":[{\"dexIndex\":3,\"dexCode\":\"UniswapV3\",\"swapAmount\":\"4616700\"},{\"dexIndex\":54,\"dexCode\":\"UniswapV4\",\"swapAmount\":\"45128398\"},{\"dexIndex\":97,\"dexCode\":\"AerodromeCLNew\",\"swapAmount\":\"47820935\"}],\"path\":{\"from\":\"0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913\",\"to\":\"0xb20000000000000000000078ee7ce2fE4908108C\",\"parts\":5,\"routes\":[{\"parts\":5,\"percentage\":100,\"subRoutes\":[{\"from\":\"0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913\",\"to\":\"0xb20000000000000000000078ee7ce2fE4908108C\",\"parts\":5,\"dexes\":[{\"dex\":\"AerodromeCLNew\",\"id\":\"0x853F5f1B92b16714Fe6CDA67CAad0856B83C7ab9\",\"parts\":5,\"percentage\":100,\"fee\":0.0005}]}]}]},\"exchange\":\"0x6352a56caadC4F1E25CD6c75970Fa768A3304e64\",\"save\":0}}",
       "json": {
         "code": 200,
         "data": {
@@ -529,21 +529,17 @@
             "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
             "decimals": 6,
             "symbol": "USDC",
-            "name": "USD Coin",
-            "usd": "0.999902",
-            "volume": 99.9902
+            "name": "USD Coin"
           },
           "outToken": {
             "address": "0xb20000000000000000000078ee7ce2fE4908108C",
             "decimals": 8,
             "symbol": "NVDAc",
-            "name": "NVIDIA Corporation",
-            "usd": "208.90561",
-            "volume": 99.9980704365185
+            "name": "NVIDIA Corporation"
           },
           "inAmount": "100000000",
-          "outAmount": "47867585",
-          "estimatedGas": "130118",
+          "outAmount": "47820935",
+          "estimatedGas": "130482",
           "dexes": [
             {
               "dexIndex": 3,
@@ -553,12 +549,12 @@
             {
               "dexIndex": 54,
               "dexCode": "UniswapV4",
-              "swapAmount": "45093561"
+              "swapAmount": "45128398"
             },
             {
               "dexIndex": 97,
               "dexCode": "AerodromeCLNew",
-              "swapAmount": "47867585"
+              "swapAmount": "47820935"
             }
           ],
           "path": {
@@ -589,8 +585,7 @@
             ]
           },
           "exchange": "0x6352a56caadC4F1E25CD6c75970Fa768A3304e64",
-          "save": 0,
-          "price_impact": "0%"
+          "save": 0
         }
       }
     },
@@ -616,9 +611,9 @@
       "final_url": "https://open-api-enterprise.openocean.finance/v4/base/quote?inTokenAddress=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&outTokenAddress=0xb20000000000000000000078ee7ce2fE4908108C&amountDecimals=100000000&gasPriceDecimals=6000000&slippage=0.5",
       "status": 401,
       "reason": "Unauthorized",
-      "elapsed_ms": 585,
+      "elapsed_ms": 283,
       "response_headers": {
-        "Date": "Mon, 24 Aug 2026 22:32:15 GMT",
+        "Date": "Mon, 24 Aug 2026 22:57:40 GMT",
         "Content-Type": "application/json; charset=utf-8",
         "Content-Length": "96",
         "Connection": "keep-alive",
@@ -626,17 +621,17 @@
         "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
         "WWW-Authenticate": "Key realm=\"kong\"",
         "X-Kong-Response-Latency": "0",
-        "X-Kong-Request-Id": "0b516967f584e833d647e559458ac128",
+        "X-Kong-Request-Id": "84de6e3498e4090bbbae895f22156925",
         "cf-cache-status": "DYNAMIC",
-        "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=nXcFHFjQJrnIGu3YBGYX7lUxV9Y5LiPHIZNtI36MiKcv35v%2BWt8pMSILg55PVOAzRMopoEH16J1OSAtW5tdQiQCNZQfdsDEVXtDuU4Eww%2BJhvdxpjZu8lot2li4dk%2FMWmDCx2m44XarywKjESWRxuGilN6SthXU%3D\"}]}",
-        "CF-RAY": "a305cfd3ff4f15ef-SJC"
+        "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=6HyhA8G0qIdQUqSGOw3M9T%2Fuc3oZ84iTijaAPtYxygdGeW0DfscixJvc2ZLU9LGsFyfcm2luxuFcfjxkxBOwgFdFgX4xb6QfiKXwp6YQIaj7eVdVwfFmV1w%2BZLEHLHOyjY84qR7I3F8ygiiL19bm%2BkEbYpTb5gs%3D\"}]}",
+        "CF-RAY": "a305f5124c418b3e-IAD"
       },
-      "body_sha256": "0fc482e1e32ede13cbedd15d864e4a30f8de69fced970f9408a050291e05c48a",
+      "body_sha256": "cdfbf0467087e936707b5a4cef2206c0594ebb0448668fd73338f4ab1389f911",
       "body_length": 96,
-      "body": "{\n  \"message\":\"No API key found in request\",\n  \"request_id\":\"0b516967f584e833d647e559458ac128\"\n}",
+      "body": "{\n  \"message\":\"No API key found in request\",\n  \"request_id\":\"84de6e3498e4090bbbae895f22156925\"\n}",
       "json": {
         "message": "No API key found in request",
-        "request_id": "0b516967f584e833d647e559458ac128"
+        "request_id": "84de6e3498e4090bbbae895f22156925"
       }
     },
     {
@@ -661,11 +656,11 @@
       "final_url": "https://open-api.openocean.finance/v3/base/quote?inTokenAddress=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&outTokenAddress=0xb20000000000000000000078ee7ce2fE4908108C&amount=100&gasPrice=0.006&slippage=0.5",
       "status": 200,
       "reason": "OK",
-      "elapsed_ms": 843,
+      "elapsed_ms": 1015,
       "response_headers": {
-        "Date": "Mon, 24 Aug 2026 22:32:15 GMT",
+        "Date": "Mon, 24 Aug 2026 22:57:41 GMT",
         "Content-Type": "application/json; charset=utf-8",
-        "Content-Length": "1107",
+        "Content-Length": "1108",
         "Connection": "keep-alive",
         "Server": "cloudflare",
         "Access-Control-Allow-Method": "GET, POST, PUT, OPTIONS",
@@ -675,17 +670,17 @@
         "x-xss-protection": "1; mode=block, 1; mode=block",
         "x-content-type-options": "nosniff, nosniff",
         "x-download-options": "noopen",
-        "x-readtime": "671",
+        "x-readtime": "768",
         "Strict-Transport-Security": "max-age=31536000; includeSubdomains;",
         "cf-cache-status": "DYNAMIC",
-        "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=fOm8HfsJhFzqgN1C30YzY5pmFdmn6Ja6EMw1s21Zr9dXlDBcNoeU%2BhtGb2G7uwwKgK9FfOgVq9MLwluq3DEbeuszAtErd5Mfx5Uybc8YFK486DWjihXOd%2BWyZs%2BcBAMUY0TiC3ud5Y%2Bec%2FLS\"}]}",
+        "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Viu62R4YpMHefKpkP5OlVIuG1QA5NO0PqvU%2BRAx8rRFjG2fU9k45qOz7ph7%2FJJQJ1%2B7%2BxPDrultKZeOlxW83Ul8XqWtAKOfeRHTnMhmCwjwD7u86RyX7qpwyvbrA1ICIwEWfpoYPe94ycFPb\"}]}",
         "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
         "Access-Control-Allow-Headers": "*",
-        "CF-RAY": "a305cfd60c1e8ea2-SJC"
+        "CF-RAY": "a305f513d9122000-IAD"
       },
-      "body_sha256": "44a9264a3d4591ea6553597560532220159285866666a8e6c9f94401695f3dd8",
-      "body_length": 1107,
-      "body": "{\"code\":200,\"data\":{\"inToken\":{\"address\":\"0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913\",\"decimals\":6,\"symbol\":\"USDC\",\"name\":\"USD Coin\",\"usd\":\"0.999902\",\"volume\":99.9902},\"outToken\":{\"address\":\"0xb20000000000000000000078ee7ce2fE4908108C\",\"decimals\":8,\"symbol\":\"NVDAc\",\"name\":\"NVIDIA Corporation\",\"usd\":\"208.90561\",\"volume\":99.9980704365185},\"inAmount\":\"100000000\",\"outAmount\":\"47867585\",\"estimatedGas\":\"129028\",\"dexes\":[{\"dexIndex\":3,\"dexCode\":\"UniswapV3\",\"swapAmount\":\"4616700\"},{\"dexIndex\":54,\"dexCode\":\"UniswapV4\",\"swapAmount\":\"45093561\"},{\"dexIndex\":97,\"dexCode\":\"AerodromeCLNew\",\"swapAmount\":\"47867585\"}],\"path\":{\"from\":\"0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913\",\"to\":\"0xb20000000000000000000078ee7ce2fE4908108C\",\"parts\":5,\"routes\":[{\"parts\":5,\"percentage\":100,\"subRoutes\":[{\"from\":\"0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913\",\"to\":\"0xb20000000000000000000078ee7ce2fE4908108C\",\"parts\":5,\"dexes\":[{\"dex\":\"AerodromeCLNew\",\"id\":\"0x853F5f1B92b16714Fe6CDA67CAad0856B83C7ab9\",\"parts\":5,\"percentage\":100,\"fee\":0.0005}]}]}]},\"exchange\":\"0x6352a56caadC4F1E25CD6c75970Fa768A3304e64\",\"save\":0,\"price_impact\":\"0%\"}}",
+      "body_sha256": "f72402a10b07c95d4d96be895e6f76922ef69a6bbd48cc2dd6190f3658009019",
+      "body_length": 1108,
+      "body": "{\"code\":200,\"data\":{\"inToken\":{\"address\":\"0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913\",\"decimals\":6,\"symbol\":\"USDC\",\"name\":\"USD Coin\",\"usd\":\"0.999922\",\"volume\":99.9922},\"outToken\":{\"address\":\"0xb20000000000000000000078ee7ce2fE4908108C\",\"decimals\":8,\"symbol\":\"NVDAc\",\"name\":\"NVIDIA Corporation\",\"usd\":\"209.106954\",\"volume\":99.9969005528199},\"inAmount\":\"100000000\",\"outAmount\":\"47820935\",\"estimatedGas\":\"129852\",\"dexes\":[{\"dexIndex\":3,\"dexCode\":\"UniswapV3\",\"swapAmount\":\"4616700\"},{\"dexIndex\":54,\"dexCode\":\"UniswapV4\",\"swapAmount\":\"45128398\"},{\"dexIndex\":97,\"dexCode\":\"AerodromeCLNew\",\"swapAmount\":\"47820935\"}],\"path\":{\"from\":\"0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913\",\"to\":\"0xb20000000000000000000078ee7ce2fE4908108C\",\"parts\":5,\"routes\":[{\"parts\":5,\"percentage\":100,\"subRoutes\":[{\"from\":\"0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913\",\"to\":\"0xb20000000000000000000078ee7ce2fE4908108C\",\"parts\":5,\"dexes\":[{\"dex\":\"AerodromeCLNew\",\"id\":\"0x853F5f1B92b16714Fe6CDA67CAad0856B83C7ab9\",\"parts\":5,\"percentage\":100,\"fee\":0.0005}]}]}]},\"exchange\":\"0x6352a56caadC4F1E25CD6c75970Fa768A3304e64\",\"save\":0,\"price_impact\":\"0%\"}}",
       "json": {
         "code": 200,
         "data": {
@@ -694,20 +689,20 @@
             "decimals": 6,
             "symbol": "USDC",
             "name": "USD Coin",
-            "usd": "0.999902",
-            "volume": 99.9902
+            "usd": "0.999922",
+            "volume": 99.9922
           },
           "outToken": {
             "address": "0xb20000000000000000000078ee7ce2fE4908108C",
             "decimals": 8,
             "symbol": "NVDAc",
             "name": "NVIDIA Corporation",
-            "usd": "208.90561",
-            "volume": 99.9980704365185
+            "usd": "209.106954",
+            "volume": 99.9969005528199
           },
           "inAmount": "100000000",
-          "outAmount": "47867585",
-          "estimatedGas": "129028",
+          "outAmount": "47820935",
+          "estimatedGas": "129852",
           "dexes": [
             {
               "dexIndex": 3,
@@ -717,12 +712,12 @@
             {
               "dexIndex": 54,
               "dexCode": "UniswapV4",
-              "swapAmount": "45093561"
+              "swapAmount": "45128398"
             },
             {
               "dexIndex": 97,
               "dexCode": "AerodromeCLNew",
-              "swapAmount": "47867585"
+              "swapAmount": "47820935"
             }
           ],
           "path": {
@@ -768,9 +763,9 @@
       "final_url": "https://open-api.openocean.finance/v4/base/dexList",
       "status": 200,
       "reason": "OK",
-      "elapsed_ms": 175,
+      "elapsed_ms": 246,
       "response_headers": {
-        "Date": "Mon, 24 Aug 2026 22:32:16 GMT",
+        "Date": "Mon, 24 Aug 2026 22:57:41 GMT",
         "Content-Type": "application/json; charset=utf-8",
         "Content-Length": "4387",
         "Connection": "keep-alive",
@@ -784,10 +779,10 @@
         "X-Content-Type-Options": "nosniff",
         "Strict-Transport-Security": "max-age=31536000; includeSubdomains;",
         "cf-cache-status": "DYNAMIC",
-        "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=QH7fJkf6fJe6pwUtFgCXVr0ohDCnH2qQQEfsF7yTG5mufKuG4D9av4c1Nu9FswszZVyKRUCQj9nJP7xLnd6ltbfxPsw3vi5bWSrnJCUu8Ol4SqtGI3DeNykG6e1UmveT1S7j39dZdNL50ReH\"}]}",
+        "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=3TD5uRSHIqTWbNflpcl1LNdLE1nCZ9IcLzcArBGrw3XusBIWY0v0Vdiha9Bkq%2BLp2kvjK046%2Fv8CXcHwH1C8kykPYYNkriSqgALj%2Bb99DtH1cD1lHPJkjbK8epTtupPd%2B4kGbwO%2BA5HnOFYC\"}]}",
         "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
         "Access-Control-Allow-Headers": "*",
-        "CF-RAY": "a305cfdb5e1c8ea2-SJC"
+        "CF-RAY": "a305f51a2de32000-IAD"
       },
       "body_sha256": "5737f1b576a75856cc3c825165b8e57eb96b8d745e6a41690010518bab48844a",
       "body_length": 4387,
@@ -1245,14 +1240,14 @@
       "final_url": "https://aggregator-api.kyberswap.com/base/api/v1/routes?tokenIn=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&tokenOut=0xb20000000000000000000078ee7ce2fE4908108C&amountIn=100000000&gasInclude=true&saveGas=false&feeAmount=50&chargeFeeBy=currency_in&isInBps=true&feeReceiver=0x1111111111111111111111111111111111111111",
       "status": 200,
       "reason": "OK",
-      "elapsed_ms": 157,
+      "elapsed_ms": 70,
       "response_headers": {
-        "Date": "Mon, 24 Aug 2026 22:32:16 GMT",
+        "Date": "Mon, 24 Aug 2026 22:57:41 GMT",
         "Content-Type": "application/json; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
-        "x-request-id": "27e47578-60bd-43b6-b2fb-cb90fe7fb8f0",
-        "x-envoy-upstream-service-time": "34",
+        "x-request-id": "58533b94-ea0f-442b-bbf6-3cae2825e069",
+        "x-envoy-upstream-service-time": "4",
         "vary": "Accept-Encoding",
         "Strict-Transport-Security": "max-age=15552000; includeSubDomains; preload",
         "server": "cloudflare",
@@ -1260,11 +1255,11 @@
         "x-ratelimit-remaining": "29",
         "x-ratelimit-reset-after": "10",
         "cf-cache-status": "DYNAMIC",
-        "CF-RAY": "a305cfdc9ea1e196-SJC"
+        "CF-RAY": "a305f51bded3c96a-IAD"
       },
-      "body_sha256": "8e5fa7a6d1ec8597858774adb26246d8682480b41b42392413f376cf4553078f",
-      "body_length": 1219,
-      "body": "{\"code\":0,\"message\":\"successfully\",\"data\":{\"routeSummary\":{\"tokenIn\":\"0x833589fcd6edb6e08f4c7c32d4f71b54bda02913\",\"amountIn\":\"100000000\",\"amountInUsd\":\"99.98581135854371\",\"tokenOut\":\"0xb20000000000000000000078ee7ce2fe4908108c\",\"amountOut\":\"47629818\",\"amountOutUsd\":\"99.4346587991861\",\"gas\":\"330498\",\"gasPrice\":\"6000000\",\"gasUsd\":\"0.004912219954340499\",\"l1FeeUsd\":\"0.000029201549212729837\",\"extraFee\":{\"feeAmount\":\"50\",\"chargeFeeBy\":\"currency_in\",\"isInBps\":true,\"feeReceiver\":\"0x1111111111111111111111111111111111111111\"},\"route\":[[{\"pool\":\"0x853f5f1b92b16714fe6cda67caad0856b83c7ab9\",\"tokenIn\":\"0x833589fcd6edb6e08f4c7c32d4f71b54bda02913\",\"tokenOut\":\"0xb20000000000000000000078ee7ce2fe4908108c\",\"swapAmount\":\"99500000\",\"amountOut\":\"47629818\",\"exchange\":\"aerodrome-cl-3\",\"poolType\":\"slipstream\",\"poolExtra\":{\"swapFee\":500,\"priceLimit\":\"4295558253\",\"blockNumber\":50410693},\"extra\":{\"_cs\":\"7210646779248288773\",\"_ts\":\"1787610736\",\"nSqrtRx96\":\"54829269667947332545575524846\",\"nT\":-7363,\"rAI\":\"0\",\"ri\":\"27e47578YL1DtrL7\"}}]],\"routeID\":\"27e47578YL1DtrL7\",\"checksum\":\"7210646779248288773\",\"timestamp\":1787610736},\"routerAddress\":\"0x6131B5fae19EA4f9D964eAc0408E4408b66337b5\"},\"requestId\":\"27e47578-60bd-43b6-b2fb-cb90fe7fb8f0\"}",
+      "body_sha256": "4cbf4fbc4f65329f550b2e35ca62fc372815e79ede36c57422c56304acfe6936",
+      "body_length": 1223,
+      "body": "{\"code\":0,\"message\":\"successfully\",\"data\":{\"routeSummary\":{\"tokenIn\":\"0x833589fcd6edb6e08f4c7c32d4f71b54bda02913\",\"amountIn\":\"100000000\",\"amountInUsd\":\"100.12306048534674\",\"tokenOut\":\"0xb20000000000000000000078ee7ce2fe4908108c\",\"amountOut\":\"47582494\",\"amountOutUsd\":\"99.62152966396755\",\"gas\":\"330498\",\"gasPrice\":\"6000000\",\"gasUsd\":\"0.004916343565844903\",\"l1FeeUsd\":\"0.000034064367270572696\",\"extraFee\":{\"feeAmount\":\"50\",\"chargeFeeBy\":\"currency_in\",\"isInBps\":true,\"feeReceiver\":\"0x1111111111111111111111111111111111111111\"},\"route\":[[{\"pool\":\"0x853f5f1b92b16714fe6cda67caad0856b83c7ab9\",\"tokenIn\":\"0x833589fcd6edb6e08f4c7c32d4f71b54bda02913\",\"tokenOut\":\"0xb20000000000000000000078ee7ce2fe4908108c\",\"swapAmount\":\"99500000\",\"amountOut\":\"47582494\",\"exchange\":\"aerodrome-cl-3\",\"poolType\":\"slipstream\",\"poolExtra\":{\"swapFee\":500,\"priceLimit\":\"4295558253\",\"blockNumber\":50411451},\"extra\":{\"_cs\":\"12947748711778313796\",\"_ts\":\"1787612261\",\"nSqrtRx96\":\"54801915895450855058993596347\",\"nT\":-7373,\"rAI\":\"0\",\"ri\":\"58533b946g9EK7v2\"}}]],\"routeID\":\"58533b946g9EK7v2\",\"checksum\":\"12947748711778313796\",\"timestamp\":1787612261},\"routerAddress\":\"0x6131B5fae19EA4f9D964eAc0408E4408b66337b5\"},\"requestId\":\"58533b94-ea0f-442b-bbf6-3cae2825e069\"}",
       "json": {
         "code": 0,
         "message": "successfully",
@@ -1272,14 +1267,14 @@
           "routeSummary": {
             "tokenIn": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
             "amountIn": "100000000",
-            "amountInUsd": "99.98581135854371",
+            "amountInUsd": "100.12306048534674",
             "tokenOut": "0xb20000000000000000000078ee7ce2fe4908108c",
-            "amountOut": "47629818",
-            "amountOutUsd": "99.4346587991861",
+            "amountOut": "47582494",
+            "amountOutUsd": "99.62152966396755",
             "gas": "330498",
             "gasPrice": "6000000",
-            "gasUsd": "0.004912219954340499",
-            "l1FeeUsd": "0.000029201549212729837",
+            "gasUsd": "0.004916343565844903",
+            "l1FeeUsd": "0.000034064367270572696",
             "extraFee": {
               "feeAmount": "50",
               "chargeFeeBy": "currency_in",
@@ -1293,32 +1288,32 @@
                   "tokenIn": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
                   "tokenOut": "0xb20000000000000000000078ee7ce2fe4908108c",
                   "swapAmount": "99500000",
-                  "amountOut": "47629818",
+                  "amountOut": "47582494",
                   "exchange": "aerodrome-cl-3",
                   "poolType": "slipstream",
                   "poolExtra": {
                     "swapFee": 500,
                     "priceLimit": "4295558253",
-                    "blockNumber": 50410693
+                    "blockNumber": 50411451
                   },
                   "extra": {
-                    "_cs": "7210646779248288773",
-                    "_ts": "1787610736",
-                    "nSqrtRx96": "54829269667947332545575524846",
-                    "nT": -7363,
+                    "_cs": "12947748711778313796",
+                    "_ts": "1787612261",
+                    "nSqrtRx96": "54801915895450855058993596347",
+                    "nT": -7373,
                     "rAI": "0",
-                    "ri": "27e47578YL1DtrL7"
+                    "ri": "58533b946g9EK7v2"
                   }
                 }
               ]
             ],
-            "routeID": "27e47578YL1DtrL7",
-            "checksum": "7210646779248288773",
-            "timestamp": 1787610736
+            "routeID": "58533b946g9EK7v2",
+            "checksum": "12947748711778313796",
+            "timestamp": 1787612261
           },
           "routerAddress": "0x6131B5fae19EA4f9D964eAc0408E4408b66337b5"
         },
-        "requestId": "27e47578-60bd-43b6-b2fb-cb90fe7fb8f0"
+        "requestId": "58533b94-ea0f-442b-bbf6-3cae2825e069"
       }
     }
   ]
