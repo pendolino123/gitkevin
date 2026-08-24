@@ -13,7 +13,7 @@ jobs:
   probe:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 12
     steps:
       - name: Check out probe branch
         uses: actions/checkout@v4
@@ -33,11 +33,17 @@ jobs:
           python -m pip install --disable-pip-version-check requests
           npm install --no-save ethers@6
 
-      - name: Call public aggregator quote APIs
+      - name: Call baseline public aggregator quote APIs
         run: python b20-probe/probe.py
+
+      - name: Run corrected retries and package metadata checks
+        run: python b20-probe/retry.py
 
       - name: Query Aerodrome contracts on Base
         run: node b20-probe/onchain.mjs
+
+      - name: Benchmark Aerodrome at exact blocks and fee-adjusted amounts
+        run: node b20-probe/benchmark.mjs
 
       - name: Upload immutable evidence artifact
         uses: actions/upload-artifact@v4
@@ -51,5 +57,5 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add results/*.json
-          git commit -m 'Record live B20 quote responses [skip ci]' || exit 0
+          git commit -m 'Record corrected B20 quote responses [skip ci]' || exit 0
           git push
