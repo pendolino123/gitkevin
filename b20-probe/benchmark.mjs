@@ -27,7 +27,10 @@ async function quote(amountIn, blockTag='latest') {
 }
 
 const currentBlock = await provider.getBlockNumber();
-const tags = [50410444, 50410453, currentBlock];
+// 50,410,444: Kyber route snapshot; 50,410,453: LI.FI route snapshot;
+// 50,410,666: Velora's embedded Aerodrome source block;
+// 50,410,693: nearest contemporaneous block to OpenOcean's response (OpenOcean omitted a route block).
+const tags = [50410444, 50410453, 50410666, 50410693, currentBlock];
 const amounts = [100000000n, 99750000n, 99500000n];
 const quotes=[];
 for (const blockTag of tags) {
