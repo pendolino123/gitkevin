@@ -1,0 +1,99 @@
+{
+  "tested_at_utc": "2026-08-24T22:32:17.727591+00:00",
+  "packages": [
+    {
+      "package": "@lifi/widget",
+      "status": 200,
+      "body_sha256": "0917986ee1a8cf6f85d7e6d4aea3d7057f7ecaebd1dadbfe0b83b80513f8ec0e",
+      "latest": "4.5.0",
+      "latest_published_at": "2026-07-27T13:20:56.357Z",
+      "modified_at": "2026-07-27T13:20:56.708Z",
+      "license": "Apache-2.0",
+      "deprecated": null,
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/lifinance/widget.git",
+        "directory": "packages/widget"
+      },
+      "homepage": "https://github.com/lifinance/widget"
+    },
+    {
+      "package": "@kyberswap/widgets",
+      "status": 200,
+      "body_sha256": "4041845ed78f4046fa6944522bc04dd250249e6877a96d92a19154ac9e8aa121",
+      "latest": "2.4.1",
+      "latest_published_at": "2026-07-23T10:41:03.701Z",
+      "modified_at": "2026-07-23T10:41:03.834Z",
+      "license": "MIT",
+      "deprecated": null,
+      "repository": null,
+      "homepage": null
+    },
+    {
+      "package": "@openocean.finance/widget",
+      "status": 200,
+      "body_sha256": "10e424678dfed050c6100bc5926bebcf0c5bf7d48dc7b4ebbe1f684c04b893f2",
+      "latest": "1.0.67",
+      "latest_published_at": "2026-07-20T10:48:56.740Z",
+      "modified_at": "2026-07-20T10:48:56.982Z",
+      "license": "ISC",
+      "deprecated": null,
+      "repository": null,
+      "homepage": null
+    },
+    {
+      "package": "odos-widgets",
+      "status": 200,
+      "body_sha256": "ac61e6d2d2dd51c2fb67a7b30a54257cf49c9ecdd700824132faeae48ad4d7f5",
+      "latest": "1.4.0",
+      "latest_published_at": "2025-01-10T23:34:15.018Z",
+      "modified_at": "2025-01-10T23:34:15.175Z",
+      "license": "MIT",
+      "deprecated": null,
+      "repository": null,
+      "homepage": null
+    },
+    {
+      "package": "@paraswap/sdk",
+      "status": 200,
+      "body_sha256": "bd815f4f4dac9f1b4e82f09e057313aa2595187972a0a1284b27d43b3155f1e3",
+      "latest": "7.3.1",
+      "latest_published_at": "2025-04-28T16:10:46.847Z",
+      "modified_at": "2026-07-07T11:35:54.042Z",
+      "license": "MIT",
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.",
+      "repository": {
+        "url": "git+https://github.com/paraswap/paraswap-sdk.git",
+        "type": "git"
+      },
+      "homepage": "https://github.com/paraswap/paraswap-sdk#readme"
+    },
+    {
+      "package": "@uniswap/widgets",
+      "status": 200,
+      "body_sha256": "d9645f2bcab14b7ea936f6a9588a44cdd5171b2f600b9f8c58a98b48047ef28b",
+      "latest": "2.59.0",
+      "latest_published_at": "2023-09-28T18:40:39.261Z",
+      "modified_at": "2025-09-24T16:30:26.116Z",
+      "license": "GPL-3.0-or-later",
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.",
+      "repository": {
+        "url": "git+https://github.com/Uniswap/widgets.git",
+        "type": "git"
+      },
+      "homepage": "https://github.com/Uniswap/widgets#readme"
+    },
+    {
+      "package": "@0x/instant",
+      "status": 404,
+      "body_sha256": "c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f",
+      "latest": null,
+      "latest_published_at": null,
+      "modified_at": null,
+      "license": null,
+      "deprecated": null,
+      "repository": null,
+      "homepage": null
+    }
+  ]
+}
