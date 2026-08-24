@@ -1,9 +1,9 @@
 {
-  "testedAtUtc": "2026-08-24T22:59:21.613Z",
+  "testedAtUtc": "2026-08-24T23:21:02.451Z",
   "rpcUsed": "https://mainnet.base.org",
   "chainId": "8453",
-  "blockNumber": 50411458,
-  "blockTimestamp": "2026-08-24T22:57:43.000Z",
+  "blockNumber": 50412092,
+  "blockTimestamp": "2026-08-24T23:18:51.000Z",
   "pair": {
     "tokenIn": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tokenOut": "0xb20000000000000000000078ee7ce2fE4908108C",
@@ -236,11 +236,11 @@
           "tickSpacing": 10,
           "pool": "0x853F5f1B92b16714Fe6CDA67CAad0856B83C7ab9",
           "poolCodeLength": 45,
-          "amountOut": "47821853",
-          "amountOutFormatted": "0.47821853",
-          "sqrtPriceX96After": "54802438250836510641583606975",
+          "amountOut": "47791652",
+          "amountOutFormatted": "0.47791652",
+          "sqrtPriceX96After": "54785222710752638492252913057",
           "initializedTicksCrossed": 1,
-          "gasEstimate": "182334"
+          "gasEstimate": "200894"
         },
         {
           "tickSpacing": 50,
@@ -268,9 +268,9 @@
           "tickSpacing": 200,
           "pool": "0x204B5342c46A7E1BE3988E60aCB2b7aaCa2e40AB",
           "poolCodeLength": 45,
-          "amountOut": "46071442",
-          "amountOutFormatted": "0.46071442",
-          "sqrtPriceX96After": "53535283069112630204219451584",
+          "amountOut": "46071469",
+          "amountOutFormatted": "0.46071469",
+          "sqrtPriceX96After": "53535299091333022437304951599",
           "initializedTicksCrossed": 1,
           "gasEstimate": "142143"
         },

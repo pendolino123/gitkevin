@@ -1,0 +1,38 @@
+{
+  "tested_at_utc": "2026-08-24T23:18:50.824697+00:00",
+  "packages": [
+    {
+      "package": "@velora-dex/widget",
+      "url": "https://registry.npmjs.org/%40velora-dex%2Fwidget",
+      "status": 200,
+      "reason": "OK",
+      "body_sha256": "9208ef838e145cbb7c10a0cffdeb288134114c838826e6a4bf9a9ec1b6459e53",
+      "body_length": 737593,
+      "latest": "0.16.0",
+      "latest_published_at": "2026-08-18T14:40:12.565Z",
+      "modified_at": "2026-08-21T10:21:46.318Z",
+      "license": "MIT",
+      "deprecated": null,
+      "repository": null,
+      "homepage": null
+    },
+    {
+      "package": "@velora-dex/sdk",
+      "url": "https://registry.npmjs.org/%40velora-dex%2Fsdk",
+      "status": 200,
+      "reason": "OK",
+      "body_sha256": "d9068c530bd527cf538eb29178cbb09fb483f8797c55969dee23179b7a49f377",
+      "body_length": 205071,
+      "latest": "10.3.1",
+      "latest_published_at": "2026-08-14T07:59:28.464Z",
+      "modified_at": "2026-08-14T07:59:28.601Z",
+      "license": "MIT",
+      "deprecated": null,
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/VeloraDEX/paraswap-sdk.git"
+      },
+      "homepage": "https://github.com/VeloraDEX/paraswap-sdk#readme"
+    }
+  ]
+}
