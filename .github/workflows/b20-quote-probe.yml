@@ -39,6 +39,9 @@ jobs:
       - name: Run corrected retries and package metadata checks
         run: python b20-probe/retry.py
 
+      - name: Query current Velora widget package metadata
+        run: python b20-probe/velora_metadata.py
+
       - name: Query Aerodrome contracts on Base
         run: node b20-probe/onchain.mjs
 
